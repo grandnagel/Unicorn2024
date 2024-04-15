@@ -1,0 +1,25 @@
+﻿// COUNT of the number of people logged on
+// testimony pages
+// People prayed for
+// people you pray with
+// prove the method is based on science
+//  how many helped / recovered individuals??
+// Make an article page with science proof of "All is connected to all"
+//   understand epigenetics and how it works to raise consoiusness
+// ??donations of tangible items: food, clothing, furniture, money
+// Plan prayer meetings and send alerts/reminders
+/*
+* The free version allows you to pray for anyone anywhere on the map.
+* The paid version will establish group memberships and personal relationships
+*  which will open up alerts for prayer requests of friends and groups
+* */
+
+/*
+
+example database access
+<cfquery name="getUser" datasource="Unicorn" >
+	Select * from Message
+</CFQuery>
+<CFDump var="#getUser#">
+
+*/

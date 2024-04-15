@@ -1,0 +1,154 @@
+#map {
+	height: 80vh;
+	width: 100%;
+	margin-top: 10px;
+}
+
+body {
+	overflow-y: scroll;
+	font-size: 12px;
+	background-image: url("../image/PrayingHands.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.MainPage {
+	background-color: #000;
+	margin-top: 0;
+}
+
+.TopActions {
+	background-color: #000;
+	margin-top: 0;
+}
+
+#GoogleServices .TopActions BUTTON {
+	margin-right: 11px;
+}
+
+#MapDatsets .TopActions BUTTON, .ButtonLike {
+	margin-right: 7px;
+}
+
+#GETCnt {
+	right: 4px;
+	top: 18px;
+	position: fixed;
+	margin-right: 2ch;
+	display: none;
+	border-radius: 6px;
+	border-style: groove;
+}
+
+.ButtonLike {
+	padding:0 2px 2px 2px;
+}
+
+.ButtonLike,
+#CLKPry,
+#SHOLoc,
+#GETQua,
+#GETHos,
+#GETFir,
+#GETCon,
+#GETRad {
+	background-color: rgb(139, 38, 33);
+	color: white;
+}
+
+#SHOSat,
+#SHOTra,
+#SHOHyb,
+#SHOTer,
+#SHOStr {
+	background-color: #0000cc;
+	color: white;
+}
+
+#slider {
+	max-width: 96%;
+	margin-left: 2%;
+	margin-top: 5px;
+}
+
+.info {
+	background-color: transparent !important;
+	border: 0;
+	font-weight: bold;
+	color: white;
+}
+
+#GETLoc,
+#GETCnt {
+	display: none
+}
+
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 5px 0 5px 5px ! important;
+	background: none;
+	overflow: scroll;
+}
+
+DETAILS SUMMARY.item {
+	padding: 3px 0;
+}
+
+summary.L2 {
+	margin-left: 15px;
+}
+
+summary.L3 {
+	margin-left: 30px;
+}
+
+summary.L1 H3 {
+	display: inline;
+}
+
+summary h3,
+summary h4 {
+	display: inline-block;
+	margin: 3px 2px;
+}
+
+.coolBorder {
+	color: black;
+	border-style: double;
+	padding: 0 6px;
+	background-color: rgb(213, 253, 175);
+	margin: 10px 20px 5px 30px;
+	max-width: 65vw;
+	max-height: 50vh;
+	overflow-y: scroll;
+}
+
+div.coolBorder>P {
+	padding: 0 0 5px 0;
+	margin: 0;
+	overflow: break-word;
+	display: block;
+	word-break: break-word;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+
+}
+
+
+/***********************************/
+
+.leaflet-div-icon {
+	background: transparent !important;
+	border: none !important;
+	color: white;
+}
+
+.red {
+	color: red !important;
+}
+
+.fa {
+
+	color:red;
+}

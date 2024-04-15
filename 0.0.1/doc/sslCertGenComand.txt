@@ -1,0 +1,6 @@
+﻿How to Generate an SSL cert for this testing site:
+
+	New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -DnsName "magicmerlin.ddns.net" -FriendlyName "AllPrayCert" -NotAfter (Get-Date).AddYears(10)
+	Thumbprint                                Subject
+	----------                                -------
+	F09E1E7913F4ED4844901F74705E317002F73E1A  CN=magicmerlin.ddns.net

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "DemoConsole.V0": {
+      "commandName": "Project"
+    }
+  }
+}
